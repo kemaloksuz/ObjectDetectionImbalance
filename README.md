@@ -2,7 +2,7 @@
 
 Here, we present the list of papers within the scope of imbalance problems in object detection by following our problem-based taxonomy (the numbers in the parenthesis indicates the section that the corresponding problem is discussed in the paper.):
 
-![ProblemTaxonomy](assets/taxonomy.pdf)
+![ProblemTaxonomy](assets/taxonomy.png)
 
 # Class Imbalance
 
@@ -11,15 +11,15 @@ Here, we present the list of papers within the scope of imbalance problems in ob
 **1.Hard Sampling Methods**
     A.Random Sampling
     B.Hard Example Mining
-        *-Bootstraping*
-        *-SSD*
-        *-Online Hard Example Mining*
-        *-IoU-based Sampling*
-    C.Limit Search Space
-        *-Two-stage Object Detectors*
-        *-IoU-lower Bound*
-        *-Objectness Prior*
-        *-Negative Anchor Filtering*
+        - *Bootstraping*  
+        - *SSD*  
+        - *Online Hard Example Mining*  
+        - *IoU-based Sampling*  
+    C.Limit Search Space  
+        *-Two-stage Object Detectors*  
+        *-IoU-lower Bound*  
+        *-Objectness Prior*  
+        *-Negative Anchor Filtering*  
 
 **2.Soft Sampling Methods**
         *-Focal Loss*
@@ -35,8 +35,8 @@ Here, we present the list of papers within the scope of imbalance problems in ob
         *-Bounding Box Generator*
 
 ## Foreground-Foreground Class Imbalance
-		*-Fine-tuning Long Tail Distribution for Obj.Det.*
-        *-PSIS*
+        *-Fine-tuning Long Tail Distribution for Obj.Det.*  
+        *-PSIS*  
         *-OFB Sampling*
 
 # Scale Imbalance
