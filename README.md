@@ -40,59 +40,58 @@ Here, we present the list of papers within the scope of imbalance problems in ob
 
 ## Object/box-level Scale Imbalance
 
-- 1.Methods Predicting from the Feature Hierarchy of Backbone Features
-		*-Scale-dependent Pooling*
-        *-SSD*
-        *-Multi Scale CNN*
-        *-Scale Aware Fast R-CNN*
+- Methods Predicting from the Feature Hierarchy of Backbone Features
+  -Scale-dependent Pooling
+  -SSD
+  -Multi Scale CNN
+  -Scale Aware Fast R-CNN
 
-**2.Methods Based on Feature Pyramids**
-        *-FPN*
-        *-See feature-level imbalance methods*
+- Methods Based on Feature Pyramids**
+  - FPN
+  - See feature-level imbalance methods
 
-**3.Methods Based on Image Pyramids**
-        *-SNIP*
-        *-SNIPER*
+- Methods Based on Image Pyramids**
+  - SNIP
+  - SNIPER
 
-**4.Methods Combining Image and Feature Pyramids**
-        *-Scale Aware Trident Network*
+- Methods Combining Image and Feature Pyramids
+  - Scale Aware Trident Network
 
 ## Feature-level Imbalance
-**1.Methods Using Pyramidal Features as a Basis**
-		*-PANet*
-        *-Libra FPN*
+- Methods Using Pyramidal Features as a Basis
+  - PANet
+  - Libra FPN
 
-**2.Methods Using Backbone Features as a Basis**
-		*-STDN*
-        *-Parallel-FPN*
-        *-Deep Feature Pyramid Reconf.*
-        *-Zoom Out-and-In*
-        *-Multi-level FPN*
-        *-NAS-FPN*
-        *-Det-NAS*
+- Methods Using Backbone Features as a Basis
+  - STDN
+  - Parallel-FPN
+  - Deep Feature Pyramid Reconf.
+  - Zoom Out-and-In
+  - Multi-level FPN
+  - NAS-FPN
+  - Det-NAS
 
 # Spatial Imbalance
 
 ## Imbalance in Regression Loss
-**1.$Lp$ norm based**
-    	*-Smooth L1*
-        *-Balanced L1*
-        *-KL Loss*
-        *-Gradient Harmonizing Mechanism*
+- Lp norm based
+  - Smooth L1
+  - Balanced L1
+  - KL Loss
+  - Gradient Harmonizing Mechanism
 
-**2.IoU based**
-		*-IoU Loss*
-        *-Bounded IoU Loss*
-        *-GIoU Loss*
+- IoU based
+  - IoU Loss
+  - Bounded IoU Loss
+  - GIoU Loss
        
 ## IoU Distribution Imbalance
-		*-Cascade R-CNN*
+- Cascade R-CNN
 
 ## Object Location Imbalance
-		*-Guided Anchoring \citep{GuidedAnchoring}*
+-Guided Anchoring
 
 # Objective Imbalance
-       
-		*-Task Weighting*
-		*-Classification Aware Regression Loss*
+- Task Weighting
+- Classification Aware Regression Loss
 		
