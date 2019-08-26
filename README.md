@@ -43,10 +43,10 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
 ## Object/box-level Scale Imbalance
 
 - Methods Predicting from the Feature Hierarchy of Backbone Features
-  -Scale-dependent Pooling
-  -SSD
-  -Multi Scale CNN
-  -Scale Aware Fast R-CNN
+  - Scale-dependent Pooling
+  - SSD
+  - Multi Scale CNN
+  - Scale Aware Fast R-CNN
 
 - Methods Based on Feature Pyramids
   - FPN
