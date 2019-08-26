@@ -15,26 +15,22 @@ Here, we present the list of papers within the scope of imbalance problems in ob
      - SSD  
      - Online Hard Example Mining
      - IoU-based Sampling
-     
-    C.Limit Search Space  
-        *- Two-stage Object Detectors*  
-        *- IoU-lower Bound*  
-        *- Objectness Prior*  
-        *- Negative Anchor Filtering*  
-
-**2.Soft Sampling Methods**  
-        *- Focal Loss*  
-        *- Gradient Harmonizing Mechanism*  
-        *- Prime Sample Attention*  
-        *- AP Loss*  
-        *- DR Loss*  
-
-**3.Generative Methods**  
-        *-Adversarial Faster-RCNN*  
-        *-Task Aware Data Synthesis*  
-        *-PSIS*  
-        *-Bounding Box Generator*  
-
+   - Limit Search Space  
+     - Two-stage Object Detectors 
+     - IoU-lower Bound
+     - Objectness Prior  
+     - Negative Anchor Filtering
+2. Soft Sampling Methods  
+   - Focal Loss 
+   - Gradient Harmonizing Mechanism  
+   - Prime Sample Attention  
+   - AP Loss  
+   - DR Loss  
+3. Generative Methods  
+   - Adversarial Faster-RCNN 
+   - Task Aware Data Synthesis
+   - PSIS
+   - Bounding Box Generator 
 ## Foreground-Foreground Class Imbalance  
         *-Fine-tuning Long Tail Distribution for Obj.Det.*  
         *-PSIS*  
