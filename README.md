@@ -12,7 +12,7 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
 - Hard Sampling Methods
    - Random Sampling  
    - Hard Example Mining  
-     - Bootstrapping  
+     - Bootstrapping, NeurIPS, <https://papers.nips.cc/paper/1168-human-face-detection-in-visual-scenes.pdf> 
      - SSD, ECCV 2016, <http://www.cs.unc.edu/~wliu/papers/ssd.pdf>
      - Online Hard Example Mining
      - IoU-based Sampling
