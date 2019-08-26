@@ -8,13 +8,14 @@ Here, we present the list of papers within the scope of imbalance problems in ob
 
 ## Foreground-Backgorund Class Imbalance
 
-**1.Hard Sampling Methods**  
-    * Random Sampling  
-    * Hard Example Mining  
-        * Bootstraping  
-        *- SSD*  
-        *- Online Hard Example Mining*  
-        *- IoU-based Sampling*  
+1. Hard Sampling Methods
+   - Random Sampling  
+   - Hard Example Mining  
+     - Bootstraping  
+     - SSD  
+     - Online Hard Example Mining
+     - IoU-based Sampling
+     
     C.Limit Search Space  
         *- Two-stage Object Detectors*  
         *- IoU-lower Bound*  
