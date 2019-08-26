@@ -46,11 +46,11 @@ Here, we present the list of papers within the scope of imbalance problems in ob
   -Multi Scale CNN
   -Scale Aware Fast R-CNN
 
-- Methods Based on Feature Pyramids**
+- Methods Based on Feature Pyramids
   - FPN
   - See feature-level imbalance methods
 
-- Methods Based on Image Pyramids**
+- Methods Based on Image Pyramids
   - SNIP
   - SNIPER
 
@@ -89,7 +89,7 @@ Here, we present the list of papers within the scope of imbalance problems in ob
 - Cascade R-CNN
 
 ## Object Location Imbalance
--Guided Anchoring
+- Guided Anchoring
 
 # Objective Imbalance
 - Task Weighting
