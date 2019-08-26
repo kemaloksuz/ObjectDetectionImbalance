@@ -7,8 +7,7 @@ Here, we present the list of papers within the scope of imbalance problems in ob
 # Class Imbalance
 
 ## Foreground-Backgorund Class Imbalance
-
-1. Hard Sampling Methods
+- Hard Sampling Methods
    - Random Sampling  
    - Hard Example Mining  
      - Bootstraping  
@@ -20,18 +19,18 @@ Here, we present the list of papers within the scope of imbalance problems in ob
      - IoU-lower Bound
      - Objectness Prior  
      - Negative Anchor Filtering
-2. Soft Sampling Methods  
+- Soft Sampling Methods  
    - Focal Loss 
    - Gradient Harmonizing Mechanism  
    - Prime Sample Attention  
    - AP Loss  
    - DR Loss  
-3. Generative Methods  
+- Generative Methods  
    - Adversarial Faster-RCNN 
    - Task Aware Data Synthesis
    - PSIS
    - Bounding Box Generator 
-   
+
 ## Foreground-Foreground Class Imbalance  
    - Fine-tuning Long Tail Distribution for Obj.Det.
    - PSIS  
@@ -41,7 +40,7 @@ Here, we present the list of papers within the scope of imbalance problems in ob
 
 ## Object/box-level Scale Imbalance
 
-**1.Methods Predicting from the Feature Hierarchy of Backbone Features**
+- 1.Methods Predicting from the Feature Hierarchy of Backbone Features
 		*-Scale-dependent Pooling*
         *-SSD*
         *-Multi Scale CNN*
