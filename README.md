@@ -31,10 +31,11 @@ Here, we present the list of papers within the scope of imbalance problems in ob
    - Task Aware Data Synthesis
    - PSIS
    - Bounding Box Generator 
+   
 ## Foreground-Foreground Class Imbalance  
-        *-Fine-tuning Long Tail Distribution for Obj.Det.*  
-        *-PSIS*  
-        *-OFB Sampling*
+   - Fine-tuning Long Tail Distribution for Obj.Det.
+   - PSIS  
+   - OFB Sampling
 
 # Scale Imbalance
 
