@@ -22,11 +22,11 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
      - Objectness Prior, CVPR 2017, <https://ieeexplore.ieee.org/document/8100040>
      - Negative Anchor Filtering, CVPR 2018, <https://ieeexplore.ieee.org/document/8578540/footnotes#footnotes>
 - Soft Sampling Methods  
-   - Focal Loss 
-   - Gradient Harmonizing Mechanism  
-   - Prime Sample Attention  
-   - AP Loss  
-   - DR Loss  
+   - Focal Loss, ICCV 2017, <https://ieeexplore.ieee.org/document/8237586>
+   - Gradient Harmonizing Mechanism, AAAI 2019, <https://aaai.org/ojs/index.php/AAAI/article/view/4877>
+   - Prime Sample Attention, arXiv 2019, <https://arxiv.org/pdf/1904.04821.pdf>
+   - AP Loss, CVPR 2019, <http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Towards_Accurate_One-Stage_Object_Detection_With_AP-Loss_CVPR_2019_paper.pdf>
+   - DR Loss, arXiv 2019, <https://arxiv.org/abs/1907.10156>
 - Generative Methods  
    - Adversarial Faster-RCNN 
    - Task Aware Data Synthesis
