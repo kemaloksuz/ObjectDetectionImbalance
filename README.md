@@ -12,10 +12,10 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
 - Hard Sampling Methods
    - Random Sampling  
    - Hard Example Mining  
-     - Bootstrapping, NeurIPS, <https://papers.nips.cc/paper/1168-human-face-detection-in-visual-scenes.pdf> 
+     - Bootstrapping, NeurIPS 1996, <https://papers.nips.cc/paper/1168-human-face-detection-in-visual-scenes.pdf> 
      - SSD, ECCV 2016, <http://www.cs.unc.edu/~wliu/papers/ssd.pdf>
-     - Online Hard Example Mining
-     - IoU-based Sampling
+     - Online Hard Example Mining, CVPR 2016, <https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shrivastava_Training_Region-Based_Object_CVPR_2016_paper.pdf>
+     - IoU-based Sampling, CVPR 2019, <http://openaccess.thecvf.com/content_CVPR_2019/papers/Pang_Libra_R-CNN_Towards_Balanced_Learning_for_Object_Detection_CVPR_2019_paper.pdf>
    - Limit Search Space  
      - Two-stage Object Detectors 
      - IoU-lower Bound
