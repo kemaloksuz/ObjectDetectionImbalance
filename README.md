@@ -1,6 +1,8 @@
-# Imbalance Problems in Object Detection: A Review (Submitted to IJCV, arXiv: )
+# Imbalance Problems in Object Detection: A Review
 
-Here, we present the list of papers within the scope of imbalance problems in object detection by following our problem-based taxonomy (the numbers in the parenthesis indicates the section that the corresponding problem is discussed in the paper.):
+Here, we present the list of papers within the scope of imbalance problems in object detection by following our problem-based taxonomy in our paper submitted to IJCV. You can find a preprint in the following link:
+
+The taxonomy that we consider is as follows. The numbers in the parenthesis indicates the section that the corresponding problem is discussed in the paper.
 
 ![ProblemTaxonomy](assets/taxonomy.png)
 
