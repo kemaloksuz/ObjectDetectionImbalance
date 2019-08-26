@@ -28,10 +28,10 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
    - AP Loss, CVPR 2019, <http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Towards_Accurate_One-Stage_Object_Detection_With_AP-Loss_CVPR_2019_paper.pdf>
    - DR Loss, arXiv 2019, <https://arxiv.org/abs/1907.10156>
 - Generative Methods  
-   - Adversarial Faster-RCNN 
-   - Task Aware Data Synthesis
-   - PSIS
-   - Bounding Box Generator 
+   - Adversarial Faster-RCNN, CVPR 2017, <https://ieeexplore.ieee.org/document/8099807>
+   - Task Aware Data Synthesis, CVPR 2019, <http://openaccess.thecvf.com/content_CVPR_2019/papers/Tripathi_Learning_to_Generate_Synthetic_Data_via_Compositing_CVPR_2019_paper.pdf>
+   - PSIS, arXiv 2019, <https://arxiv.org/pdf/1906.00358.pdf>
+   - Bounding Box Generator, WACV 2020 (Under Review)
 
 ## Foreground-Foreground Class Imbalance  
    - Fine-tuning Long Tail Distribution for Obj.Det.
