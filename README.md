@@ -29,13 +29,13 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
    - DR Loss, arXiv 2019, <https://arxiv.org/abs/1907.10156>
 - Generative Methods  
    - Adversarial Faster-RCNN, CVPR 2017, <https://ieeexplore.ieee.org/document/8099807>
-   - Task Aware Data Synthesis, CVPR 2019, <http://openaccess.thecvf.com/content_CVPR_2019/papers/Tripathi_Learning_to_Generate_Synthetic_Data_via_Compositing_CVPR_2019_paper.pdf>
+   - Task Aware Data Synthesis, CVPR 2019, <http://openaccess.thecvf.com/conhttps://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603tent_CVPR_2019/papers/Tripathi_Learning_to_Generate_Synthetic_Data_via_Compositing_CVPR_2019_paper.pdf>
    - PSIS, arXiv 2019, <https://arxiv.org/pdf/1906.00358.pdf>
    - Bounding Box Generator, WACV 2020 (Under Review)
 
 ## Foreground-Foreground Class Imbalance  
-   - Fine-tuning Long Tail Distribution for Obj.Det.
-   - PSIS  
+   - Fine-tuning Long Tail Distribution for Obj.Det., CVPR 2016, <https://ieeexplore.ieee.org/document/7780469>
+   - PSIS, arXiv 2019, <https://arxiv.org/pdf/1906.00358.pdf>
    - OFB Sampling
 
 # Scale Imbalance
@@ -43,10 +43,10 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
 ## Object/box-level Scale Imbalance
 
 - Methods Predicting from the Feature Hierarchy of Backbone Features
-  - Scale-dependent Pooling
-  - SSD
-  - Multi Scale CNN
-  - Scale Aware Fast R-CNN
+  - Scale-dependent Pooling, CVPR 2016, <https://ieeexplore.ieee.org/document/7780603>
+  - SSD, ECCV 2016, <http://www.cs.unc.edu/~wliu/papers/ssd.pdf>
+  - Multi Scale CNN, ECCV 2016, <https://arxiv.org/abs/1607.07155>
+  - Scale Aware Fast R-CNN, IEEE TMM 2017, <https://ieeexplore.ieee.org/document/8060595>
 
 - Methods Based on Feature Pyramids
   - FPN
