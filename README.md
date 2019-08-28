@@ -38,7 +38,7 @@ Here, we present the list of papers within the scope of imbalance problems in ob
    - DR Loss, arXiv 2019, [[paper]](https://arxiv.org/abs/1907.10156) 
 - Generative Methods  
    - Adversarial Faster-RCNN, CVPR 2017, [[paper]](https://ieeexplore.ieee.org/document/8099807) 
-   - Task Aware Data Synthesis, CVPR 2019, [[paper]](http://openaccess.thecvf.com/conhttps://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603https://ieeexplore.ieee.org/document/7780603tent_CVPR_2019/papers/Tripathi_Learning_to_Generate_Synthetic_Data_via_Compositing_CVPR_2019_paper.pdf)
+   - Task Aware Data Synthesis, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Tripathi_Learning_to_Generate_Synthetic_Data_via_Compositing_CVPR_2019_paper.pdf)
    - PSIS, arXiv 2019, [[paper]](https://arxiv.org/pdf/1906.00358.pdf) 
    - Bounding Box Generator, WACV 2020 (Under Review)
 
@@ -72,15 +72,15 @@ Here, we present the list of papers within the scope of imbalance problems in ob
 
 - Methods Using Pyramidal Features as a Basis
   - PANet, CVPR 2018, [[paper]](https://ieeexplore.ieee.org/document/8579011)
-  - Libra FPN, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Pang_Libra_R-CNN_Towards_Balanced_Learning_for_Object_Detection_CVPR_2019_paper.html)
+  - Libra FPN, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Pang_Libra_R-CNN_Towards_Balanced_Learning_for_Object_Detection_CVPR_2019_paper.pdf)
 
 - Methods Using Backbone Features as a Basis
   - STDN, CVPR 2018, [[paper]](https://ieeexplore.ieee.org/document/8578160)
   - Parallel-FPN, ECCV 2018, [[paper]](https://link.springer.com/chapter/10.1007/978-3-030-01228-1_15)
-  - Deep Feature Pyramid Reconf., ECCV 2018, [[paper]](https://link.springer.com/chapter/10.1007/978-3-030-01228-1_11)
+  - Deep Feature Pyramid Reconfiguration, ECCV 2018, [[paper]](https://eccv2018.org/openaccess/content_ECCV_2018/papers/Tao_Kong_Deep_Feature_Pyramid_ECCV_2018_paper.pdf)
   - Zoom Out-and-In, IJCV 2019, [[paper]](https://arxiv.org/abs/1709.04347)
   - Multi-level FPN, AAAI 2019, [[paper]](https://www.groundai.com/project/m2det-a-single-shot-object-detector-based-on-multi-level-feature-pyramid-network/)
-  - NAS-FPN, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Ghiasi_NAS-FPN_Learning_Scalable_Feature_Pyramid_Architecture_for_Object_Detection_CVPR_2019_paper.html)
+  - NAS-FPN, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ghiasi_NAS-FPN_Learning_Scalable_Feature_Pyramid_Architecture_for_Object_Detection_CVPR_2019_paper.pdf)
   - Det-NAS, arXiv 2019, [[paper]](https://arxiv.org/abs/1903.10979)
 
 # 3. Spatial Imbalance <a name="3"></a>
@@ -95,7 +95,7 @@ Here, we present the list of papers within the scope of imbalance problems in ob
 
 - IoU based
   - IoU Loss, ACM IMM 2016, [[paper]](https://dl.acm.org/citation.cfm?id=2967274)
-  - Bounded IoU Loss, CVPR 2018, [[paper]](https://arxiv.org/pdf/1711.00164v2.pdf)
+  - Bounded IoU Loss, CVPR 2018, [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0794.pdf)
   - GIoU Loss, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Rezatofighi_Generalized_Intersection_Over_Union_A_Metric_and_a_Loss_for_CVPR_2019_paper.pdf)
        
 ## 3.2. IoU Distribution Imbalance <a name="3.2"></a>
