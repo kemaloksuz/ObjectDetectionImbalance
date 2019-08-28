@@ -4,7 +4,26 @@ Here, we present the list of papers within the scope of imbalance problems in ob
 
 The taxonomy that we consider is as follows. The numbers in the parenthesis indicates the section that the corresponding problem is discussed in the paper.
 
+<<<<<<< Updated upstream
 ![ProblemTaxonomy](assets/taxonomy.png)
+=======
+<<<<<<< HEAD
+# Table of Contents
+1. [Class Imbalance](#1)  
+    1.1 [Foreground-Backgorund Class Imbalance](#1.1)  
+    1.2 [Foreground-Foreground Class Imbalance](#1.2)    
+2. [Scale Imbalance](#2)
+    2.1 [Object/box-level Scale Imbalance](#2.1)  
+    2.2 [Feature-level Imbalance](#2.2)    
+3. [Spatial Imbalance](#3)
+    3.1 [Imbalance in Regression Loss](#3.1)  
+    3.2 [IoU Distribution Imbalance](#3.2)  
+    3.3 [Object Location Imbalance](#3.3)  
+4. [Objective Imbalance](#4)
+=======
+![ProblemTaxonomy](assets/taxonomy.png)
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 
 # Class Imbalance
 
@@ -40,7 +59,15 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
 
 # Scale Imbalance
 
+<<<<<<< Updated upstream
 ## Object/box-level Scale Imbalance
+=======
+<<<<<<< HEAD
+## 2.1. Object/box-level Scale Imbalance <a name="2.1"></a>
+=======
+## Object/box-level Scale Imbalance
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 
 - Methods Predicting from the Feature Hierarchy of Backbone Features
   - Scale-dependent Pooling, CVPR 2016, [[paper]](https://ieeexplore.ieee.org/document/7780603)
@@ -59,7 +86,15 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
 - Methods Combining Image and Feature Pyramids
   - Scale Aware Trident Network
 
+<<<<<<< Updated upstream
 ## Feature-level Imbalance
+=======
+<<<<<<< HEAD
+## 2.2. Feature-level Imbalance <a name="2.2"></a>
+=======
+## Feature-level Imbalance
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 - Methods Using Pyramidal Features as a Basis
   - PANet
   - Libra FPN
@@ -75,22 +110,44 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
 
 # Spatial Imbalance
 
+<<<<<<< Updated upstream
 ## Imbalance in Regression Loss
+=======
+<<<<<<< HEAD
+## 3.1. Imbalance in Regression Loss <a name="3.1"></a>
+=======
+## Imbalance in Regression Loss
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 - Lp norm based
   - Smooth L1
   - Balanced L1
   - KL Loss
-  - Gradient Harmonizing Mechanism
+  - Gradient Harmonizing Mechanism 
 
 - IoU based
   - IoU Loss
   - Bounded IoU Loss
   - GIoU Loss
        
+<<<<<<< Updated upstream
 ## IoU Distribution Imbalance
 - Cascade R-CNN
 
 ## Object Location Imbalance
+=======
+<<<<<<< HEAD
+## 3.2. IoU Distribution Imbalance <a name="3.2"></a>
+- Cascade R-CNN
+
+## 3.3. Object Location Imbalance <a name="3.3"></a>
+=======
+## IoU Distribution Imbalance
+- Cascade R-CNN
+
+## Object Location Imbalance
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 - Guided Anchoring
 
 # Objective Imbalance
