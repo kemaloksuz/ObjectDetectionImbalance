@@ -58,53 +58,53 @@ Here, we present the list of papers within the scope of imbalance problems in ob
   - Scale Aware Fast R-CNN, IEEE TMM 2017, [[paper]](https://ieeexplore.ieee.org/document/8060595)
 
 - Methods Based on Feature Pyramids
-  - FPN
+  - FPN, CVPR 2017, [[paper]](https://ieeexplore.ieee.org/document/8099589)
   - See feature-level imbalance methods
 
 - Methods Based on Image Pyramids
-  - SNIP
-  - SNIPER
+  - SNIP, CVPR 2018, [[paper]](https://ieeexplore.ieee.org/document/8578475)
+  - SNIPER, NeurIPS 2018, [[paper]](https://papers.nips.cc/paper/8143-sniper-efficient-multi-scale-training.pdf)
 
 - Methods Combining Image and Feature Pyramids
-  - Scale Aware Trident Network
+  - Scale Aware Trident Network, arXiv 2019, [[paper]](https://arxiv.org/abs/1901.01892)
 
 ## 2.2. Feature-level Imbalance <a name="2.2"></a>
 
 - Methods Using Pyramidal Features as a Basis
-  - PANet
-  - Libra FPN
+  - PANet, CVPR 2018, [[paper]](https://ieeexplore.ieee.org/document/8579011)
+  - Libra FPN, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Pang_Libra_R-CNN_Towards_Balanced_Learning_for_Object_Detection_CVPR_2019_paper.html)
 
 - Methods Using Backbone Features as a Basis
-  - STDN
-  - Parallel-FPN
-  - Deep Feature Pyramid Reconf.
-  - Zoom Out-and-In
-  - Multi-level FPN
-  - NAS-FPN
-  - Det-NAS
+  - STDN, CVPR 2018, [[paper]](https://ieeexplore.ieee.org/document/8578160)
+  - Parallel-FPN, ECCV 2018, [[paper]](https://link.springer.com/chapter/10.1007/978-3-030-01228-1_15)
+  - Deep Feature Pyramid Reconf., ECCV 2018, [[paper]](https://link.springer.com/chapter/10.1007/978-3-030-01228-1_11)
+  - Zoom Out-and-In, IJCV 2019, [[paper]](https://arxiv.org/abs/1709.04347)
+  - Multi-level FPN, AAAI 2019, [[paper]](https://www.groundai.com/project/m2det-a-single-shot-object-detector-based-on-multi-level-feature-pyramid-network/)
+  - NAS-FPN, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Ghiasi_NAS-FPN_Learning_Scalable_Feature_Pyramid_Architecture_for_Object_Detection_CVPR_2019_paper.html)
+  - Det-NAS, arXiv 2019, [[paper]](https://arxiv.org/abs/1903.10979)
 
 # 3. Spatial Imbalance <a name="3"></a>
 
 ## 3.1. Imbalance in Regression Loss <a name="3.1"></a>
 
 - Lp norm based
-  - Smooth L1
-  - Balanced L1
-  - KL Loss
-  - Gradient Harmonizing Mechanism 
+  - Smooth L1, ICCV 2015, [[paper]](https://ieeexplore.ieee.org/document/7410526)
+  - Balanced L1, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Pang_Libra_R-CNN_Towards_Balanced_Learning_for_Object_Detection_CVPR_2019_paper.html)
+  - KL Loss, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/He_Bounding_Box_Regression_With_Uncertainty_for_Accurate_Object_Detection_CVPR_2019_paper.pdf)
+  - Gradient Harmonizing Mechanism, AAAI 2019, [[paper]](https://aaai.org/ojs/index.php/AAAI/article/view/4877)
 
 - IoU based
-  - IoU Loss
-  - Bounded IoU Loss
-  - GIoU Loss
+  - IoU Loss, ACM IMM 2016, [[paper]](https://dl.acm.org/citation.cfm?id=2967274)
+  - Bounded IoU Loss, CVPR 2018, [[paper]](https://arxiv.org/pdf/1711.00164v2.pdf)
+  - GIoU Loss, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Rezatofighi_Generalized_Intersection_Over_Union_A_Metric_and_a_Loss_for_CVPR_2019_paper.pdf)
        
 ## 3.2. IoU Distribution Imbalance <a name="3.2"></a>
-- Cascade R-CNN
+- Cascade R-CNN, CVPR 2018, [[paper]](https://ieeexplore.ieee.org/document/8578742)
 
 ## 3.3. Object Location Imbalance <a name="3.3"></a>
-- Guided Anchoring
+- Guided Anchoring, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Region_Proposal_by_Guided_Anchoring_CVPR_2019_paper.html)
 
 # 4. Objective Imbalance <a name="4"></a>
 - Task Weighting
-- Classification Aware Regression Loss
+- Classification Aware Regression Loss, arXiv 2019, [[paper]](https://arxiv.org/pdf/1904.04821.pdf)
 		
