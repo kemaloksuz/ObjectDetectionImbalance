@@ -23,27 +23,27 @@ Here, we present the list of papers within the scope of imbalance problems in ob
    - Hard Example Mining  
      - Bootstrapping, NeurIPS 1996, [[paper]](https://papers.nips.cc/paper/1168-human-face-detection-in-visual-scenes.pdf) 
      - SSD, ECCV 2016, [[paper]](http://www.cs.unc.edu/~wliu/papers/ssd.pdf)
-     - Online Hard Example Mining, CVPR 2016, [[paper]](https://ieeexplore.ieee.org/document/7780458)
+     - Online Hard Example Mining, CVPR 2016, [[paper]](https://zpascal.net/cvpr2016/Shrivastava_Training_Region-Based_Object_CVPR_2016_paper.pdf)
      - IoU-based Sampling, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Pang_Libra_R-CNN_Towards_Balanced_Learning_for_Object_Detection_CVPR_2019_paper.pdf)
    - Limit Search Space  
      - Two-stage Object Detectors 	
-     - IoU-lower Bound, ICCV 2015, [[paper]](https://ieeexplore.ieee.org/document/7410526)
-     - Objectness Prior, CVPR 2017, [[paper]](https://ieeexplore.ieee.org/document/8100040)
-     - Negative Anchor Filtering, CVPR 2018, [[paper]](https://ieeexplore.ieee.org/document/8578540/footnotes#footnotes)
+     - IoU-lower Bound, ICCV 2015, [[paper]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf)
+     - Objectness Prior, CVPR 2017, [[paper]](http://zpascal.net/cvpr2017/Kong_RON_Reverse_Connection_CVPR_2017_paper.pdf)
+     - Negative Anchor Filtering, CVPR 2018, [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Single-Shot_Refinement_Neural_CVPR_2018_paper.pdf)
 - Soft Sampling Methods  
-   - Focal Loss, ICCV 2017, [[paper]](https://ieeexplore.ieee.org/document/8237586)
+   - Focal Loss, ICCV 2017, [[paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf)
    - Gradient Harmonizing Mechanism, AAAI 2019, [[paper]](https://aaai.org/ojs/index.php/AAAI/article/view/4877)
    - Prime Sample Attention, arXiv 2019, [[paper]](https://arxiv.org/pdf/1904.04821.pdf)
    - AP Loss, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Towards_Accurate_One-Stage_Object_Detection_With_AP-Loss_CVPR_2019_paper.pdf)
-   - DR Loss, arXiv 2019, [[paper]](https://arxiv.org/abs/1907.10156) 
+   - DR Loss, arXiv 2019, [[paper]](https://arxiv.org/pdf/1907.10156.pdf) 
 - Generative Methods  
-   - Adversarial Faster-RCNN, CVPR 2017, [[paper]](https://ieeexplore.ieee.org/document/8099807) 
+   - Adversarial Faster-RCNN, CVPR 2017, [[paper]](http://zpascal.net/cvpr2017/Wang_A-Fast-RCNN_Hard_Positive_CVPR_2017_paper.pdf) 
    - Task Aware Data Synthesis, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Tripathi_Learning_to_Generate_Synthetic_Data_via_Compositing_CVPR_2019_paper.pdf)
    - PSIS, arXiv 2019, [[paper]](https://arxiv.org/pdf/1906.00358.pdf) 
    - Bounding Box Generator, WACV 2020 (Under Review)
 
 ## 1.2. Foreground-Foreground Class Imbalance  <a name="1.2"></a>
-   - Fine-tuning Long Tail Distribution for Obj.Det., CVPR 2016, [[paper]](https://ieeexplore.ieee.org/document/7780469)
+   - Fine-tuning Long Tail Distribution for Obj.Det., CVPR 2016, [[paper]](http://openaccess.thecvf.com/content_cvpr_2016/papers/Ouyang_Factors_in_Finetuning_CVPR_2016_paper.pdf)
    - PSIS, arXiv 2019, [[paper]](https://arxiv.org/pdf/1906.00358.pdf)
    - OFB Sampling, WACV 2020 (Under Review)
 
