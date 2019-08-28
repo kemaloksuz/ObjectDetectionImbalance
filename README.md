@@ -1,6 +1,6 @@
 # A Repository of the Papers Addressing Imbalance Problems in Object Detection
 
-Here, we present the list of papers within the scope of imbalance problems in object detection by following our problem-based taxonomy in our paper submitted to IJCV. You can find a preprint in the following link:
+Here, we present the list of papers within the scope of imbalance problems in object detection by following our problem-based taxonomy in our paper submitted to TPAMI. You can find a preprint in the following link:
 
 # Table of Contents
 1. [Class Imbalance](#1)  
