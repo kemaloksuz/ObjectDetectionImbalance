@@ -105,7 +105,7 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
   - Deep Feature Pyramid Reconf., ECCV 2018, [[paper]](https://link.springer.com/chapter/10.1007/978-3-030-01228-1_11)
   - Zoom Out-and-In, IJCV 2019, [[paper]](https://arxiv.org/abs/1709.04347)
   - Multi-level FPN, AAAI 2019, [[paper]](https://www.groundai.com/project/m2det-a-single-shot-object-detector-based-on-multi-level-feature-pyramid-network/)
-  - NAS-FPN, CVPR 2019, [[paper]]](http://openaccess.thecvf.com/content_CVPR_2019/html/Ghiasi_NAS-FPN_Learning_Scalable_Feature_Pyramid_Architecture_for_Object_Detection_CVPR_2019_paper.html)
+  - NAS-FPN, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Ghiasi_NAS-FPN_Learning_Scalable_Feature_Pyramid_Architecture_for_Object_Detection_CVPR_2019_paper.html)
   - Det-NAS, arXiv 2019, [[paper]](https://arxiv.org/abs/1903.10979)
 
 # Spatial Imbalance
