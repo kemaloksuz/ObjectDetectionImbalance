@@ -4,7 +4,7 @@ This repository provides an up-to-date the list of studies addressing imbalance 
 
 K. Oksuz, B. C. Cam, S. Kalkan, E. Akbas, "Imbalance Problems in Object Detection: A Review", (under review), 2019. [[paper]]
 	
-If you splot a study missing in the repository, you can directly send a request for adding it.
+If you spot a study missing in the repository, you can directly send a request for adding it.
 
 ## How to request addition of a paper
 
