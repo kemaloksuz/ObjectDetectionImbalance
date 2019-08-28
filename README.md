@@ -1,8 +1,15 @@
 # A Repository of the Papers Addressing Imbalance Problems in Object Detection
 
-Here, we present the list of papers within the scope of imbalance problems in object detection by following our problem-based taxonomy in our paper submitted to TPAMI. You can find a preprint in the following link:
+This repository provides an up-to-date the list of studies addressing imbalance problems in object detection. It follows the taxonomy provided in the following paper (please cite the paper if you benefit from this repository):
 
-# Table of Contents
+K. Oksuz, B. C. Cam, S. Kalkan, E. Akbas, "Imbalance Problems in Object Detection: A Review", (under review), 2019. [[paper]]
+	
+If you splot a study missing in the repository, you can directly send a request for adding it.
+
+## How to request addition of a paper
+
+
+# Table of Contents (Follows the taxonomy in the paper)
 1. [Class Imbalance](#1)  
     1.1 [Foreground-Backgorund Class Imbalance](#1.1)  
     1.2 [Foreground-Foreground Class Imbalance](#1.2)    
@@ -108,3 +115,4 @@ Here, we present the list of papers within the scope of imbalance problems in ob
 - Task Weighting
 - Classification Aware Regression Loss, arXiv 2019, [[paper]](https://arxiv.org/pdf/1904.04821.pdf)
 		
+# Contact 
