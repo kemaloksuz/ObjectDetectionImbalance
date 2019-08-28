@@ -4,11 +4,16 @@ Here, we present the list of papers within the scope of imbalance problems in ob
 
 The taxonomy that we consider is as follows. The numbers in the parenthesis indicates the section that the corresponding problem is discussed in the paper.
 
-![ProblemTaxonomy](assets/taxonomy.png)
+# Table of Contents
+1. [Class Imbalance](#1)
+    1.1 [Foreground-Backgorund Class Imbalance](#1.1)
+    1.1 [Foreground-Foreground Class Imbalance](#1.2)    
+2. [Scale Imbalance](#2)
 
-# 1. Class Imbalance
 
-## 1.1. Foreground-Backgorund Class Imbalance
+# 1. Class Imbalance <a name="1"></a>
+
+## 1.1. Foreground-Backgorund Class Imbalance <a name="1.1"></a>
 - Hard Sampling Methods
    - Random Sampling  
    - Hard Example Mining  
@@ -33,12 +38,12 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
    - PSIS, arXiv 2019, <https://arxiv.org/pdf/1906.00358.pdf>
    - Bounding Box Generator, WACV 2020 (Under Review)
 
-## 1.2. Foreground-Foreground Class Imbalance  
+## 1.2. Foreground-Foreground Class Imbalance  <a name="1.2"></a>
    - Fine-tuning Long Tail Distribution for Obj.Det., CVPR 2016, <https://ieeexplore.ieee.org/document/7780469>
    - PSIS, arXiv 2019, <https://arxiv.org/pdf/1906.00358.pdf>
    - OFB Sampling
 
-# 2. Scale Imbalance
+# 2. Scale Imbalance <a name="2"></a>
 
 ## 2.1. Object/box-level Scale Imbalance
 
