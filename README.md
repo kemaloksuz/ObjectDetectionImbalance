@@ -116,3 +116,4 @@ If you spot a study missing in the repository, you can directly send a request f
 - Classification Aware Regression Loss, arXiv 2019, [[paper]](https://arxiv.org/pdf/1904.04821.pdf)
 		
 # Contact 
+Please contact with Kemal Oksuz (kemal.oksuz@metu.edu.tr) for your questions about this webpage.
