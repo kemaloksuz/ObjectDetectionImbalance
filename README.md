@@ -1,4 +1,4 @@
-# Imbalance Problems in Object Detection: A Review
+# A Repository of the Papers Addressing Imbalance Problems in Object Detection
 
 Here, we present the list of papers within the scope of imbalance problems in object detection by following our problem-based taxonomy in our paper submitted to IJCV. You can find a preprint in the following link:
 
@@ -6,9 +6,9 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
 
 ![ProblemTaxonomy](assets/taxonomy.png)
 
-# Class Imbalance
+# 1. Class Imbalance
 
-## Foreground-Backgorund Class Imbalance
+## 1.1. Foreground-Backgorund Class Imbalance
 - Hard Sampling Methods
    - Random Sampling  
    - Hard Example Mining  
@@ -33,14 +33,14 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
    - PSIS, arXiv 2019, <https://arxiv.org/pdf/1906.00358.pdf>
    - Bounding Box Generator, WACV 2020 (Under Review)
 
-## Foreground-Foreground Class Imbalance  
+## 1.2. Foreground-Foreground Class Imbalance  
    - Fine-tuning Long Tail Distribution for Obj.Det., CVPR 2016, <https://ieeexplore.ieee.org/document/7780469>
    - PSIS, arXiv 2019, <https://arxiv.org/pdf/1906.00358.pdf>
    - OFB Sampling
 
-# Scale Imbalance
+# 2. Scale Imbalance
 
-## Object/box-level Scale Imbalance
+## 2.1. Object/box-level Scale Imbalance
 
 - Methods Predicting from the Feature Hierarchy of Backbone Features
   - Scale-dependent Pooling, CVPR 2016, <https://ieeexplore.ieee.org/document/7780603>
@@ -59,7 +59,7 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
 - Methods Combining Image and Feature Pyramids
   - Scale Aware Trident Network
 
-## Feature-level Imbalance
+## 2.2. Feature-level Imbalance
 - Methods Using Pyramidal Features as a Basis
   - PANet
   - Libra FPN
@@ -73,9 +73,9 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
   - NAS-FPN
   - Det-NAS
 
-# Spatial Imbalance
+# 3. Spatial Imbalance
 
-## Imbalance in Regression Loss
+## 3.1. Imbalance in Regression Loss
 - Lp norm based
   - Smooth L1
   - Balanced L1
@@ -87,13 +87,13 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
   - Bounded IoU Loss
   - GIoU Loss
        
-## IoU Distribution Imbalance
+## 3.2. IoU Distribution Imbalance
 - Cascade R-CNN
 
-## Object Location Imbalance
+## 3.3. Object Location Imbalance
 - Guided Anchoring
 
-# Objective Imbalance
+# 4. Objective Imbalance
 - Task Weighting
 - Classification Aware Regression Loss
 		
