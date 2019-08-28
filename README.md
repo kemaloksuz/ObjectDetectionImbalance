@@ -1,33 +1,23 @@
-# Imbalance Problems in Object Detection: A Review
+# A Repository of the Papers Addressing Imbalance Problems in Object Detection
 
 Here, we present the list of papers within the scope of imbalance problems in object detection by following our problem-based taxonomy in our paper submitted to IJCV. You can find a preprint in the following link:
 
-The taxonomy that we consider is as follows. The numbers in the parenthesis indicates the section that the corresponding problem is discussed in the paper.
-
-<<<<<<< Updated upstream
-![ProblemTaxonomy](assets/taxonomy.png)
-=======
-<<<<<<< HEAD
 # Table of Contents
 1. [Class Imbalance](#1)  
     1.1 [Foreground-Backgorund Class Imbalance](#1.1)  
     1.2 [Foreground-Foreground Class Imbalance](#1.2)    
-2. [Scale Imbalance](#2)
+2. [Scale Imbalance](#2)  
     2.1 [Object/box-level Scale Imbalance](#2.1)  
     2.2 [Feature-level Imbalance](#2.2)    
-3. [Spatial Imbalance](#3)
+3. [Spatial Imbalance](#3)  
     3.1 [Imbalance in Regression Loss](#3.1)  
     3.2 [IoU Distribution Imbalance](#3.2)  
     3.3 [Object Location Imbalance](#3.3)  
 4. [Objective Imbalance](#4)
-=======
-![ProblemTaxonomy](assets/taxonomy.png)
->>>>>>> origin/master
->>>>>>> Stashed changes
 
-# Class Imbalance
+# 1. Class Imbalance <a name="1"></a>
 
-## Foreground-Backgorund Class Imbalance
+## 1.1. Foreground-Backgorund Class Imbalance <a name="1.1"></a>
 - Hard Sampling Methods
    - Random Sampling  
    - Hard Example Mining  
@@ -52,22 +42,14 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
    - PSIS, arXiv 2019, [[paper]](https://arxiv.org/pdf/1906.00358.pdf) 
    - Bounding Box Generator, WACV 2020 (Under Review)
 
-## Foreground-Foreground Class Imbalance  
+## 1.2. Foreground-Foreground Class Imbalance  <a name="1.2"></a>
    - Fine-tuning Long Tail Distribution for Obj.Det., CVPR 2016, [[paper]](https://ieeexplore.ieee.org/document/7780469)
    - PSIS, arXiv 2019, [[paper]](https://arxiv.org/pdf/1906.00358.pdf)
    - OFB Sampling, WACV 2020 (Under Review)
 
-# Scale Imbalance
+# 2. Scale Imbalance <a name="2"></a>
 
-<<<<<<< Updated upstream
-## Object/box-level Scale Imbalance
-=======
-<<<<<<< HEAD
 ## 2.1. Object/box-level Scale Imbalance <a name="2.1"></a>
-=======
-## Object/box-level Scale Imbalance
->>>>>>> origin/master
->>>>>>> Stashed changes
 
 - Methods Predicting from the Feature Hierarchy of Backbone Features
   - Scale-dependent Pooling, CVPR 2016, [[paper]](https://ieeexplore.ieee.org/document/7780603)
@@ -86,15 +68,8 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
 - Methods Combining Image and Feature Pyramids
   - Scale Aware Trident Network, arXiv 2019, [[paper]](https://arxiv.org/abs/1901.01892)
 
-<<<<<<< Updated upstream
-## Feature-level Imbalance
-=======
-<<<<<<< HEAD
 ## 2.2. Feature-level Imbalance <a name="2.2"></a>
-=======
-## Feature-level Imbalance
->>>>>>> origin/master
->>>>>>> Stashed changes
+
 - Methods Using Pyramidal Features as a Basis
   - PANet, CVPR 2018, [[paper]](https://ieeexplore.ieee.org/document/8579011)
   - Libra FPN, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Pang_Libra_R-CNN_Towards_Balanced_Learning_for_Object_Detection_CVPR_2019_paper.html)
@@ -108,17 +83,10 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
   - NAS-FPN, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Ghiasi_NAS-FPN_Learning_Scalable_Feature_Pyramid_Architecture_for_Object_Detection_CVPR_2019_paper.html)
   - Det-NAS, arXiv 2019, [[paper]](https://arxiv.org/abs/1903.10979)
 
-# Spatial Imbalance
+# 3. Spatial Imbalance <a name="3"></a>
 
-<<<<<<< Updated upstream
-## Imbalance in Regression Loss
-=======
-<<<<<<< HEAD
 ## 3.1. Imbalance in Regression Loss <a name="3.1"></a>
-=======
-## Imbalance in Regression Loss
->>>>>>> origin/master
->>>>>>> Stashed changes
+
 - Lp norm based
   - Smooth L1, ICCV 2015, [[paper]](https://ieeexplore.ieee.org/document/7410526)
   - Balanced L1, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Pang_Libra_R-CNN_Towards_Balanced_Learning_for_Object_Detection_CVPR_2019_paper.html)
@@ -130,27 +98,13 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
   - Bounded IoU Loss, CVPR 2018, [[paper]](https://arxiv.org/pdf/1711.00164v2.pdf)
   - GIoU Loss, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Rezatofighi_Generalized_Intersection_Over_Union_A_Metric_and_a_Loss_for_CVPR_2019_paper.pdf)
        
-<<<<<<< Updated upstream
-## IoU Distribution Imbalance
-- Cascade R-CNN, CVPR 2018, [[paper]](https://ieeexplore.ieee.org/document/8578742)
-
-## Object Location Imbalance
-=======
-<<<<<<< HEAD
 ## 3.2. IoU Distribution Imbalance <a name="3.2"></a>
 - Cascade R-CNN, CVPR 2018, [[paper]](https://ieeexplore.ieee.org/document/8578742)
 
 ## 3.3. Object Location Imbalance <a name="3.3"></a>
-=======
-## IoU Distribution Imbalance
-- Cascade R-CNN, CVPR 2018, [[paper]](https://ieeexplore.ieee.org/document/8578742)
-
-## Object Location Imbalance
->>>>>>> origin/master
->>>>>>> Stashed changes
 - Guided Anchoring, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Region_Proposal_by_Guided_Anchoring_CVPR_2019_paper.html)
 
-# Objective Imbalance
+# 4. Objective Imbalance <a name="4"></a>
 - Task Weighting
 - Classification Aware Regression Loss, arXiv 2019, [[paper]](https://arxiv.org/pdf/1904.04821.pdf)
 		
