@@ -5,11 +5,12 @@ Here, we present the list of papers within the scope of imbalance problems in ob
 The taxonomy that we consider is as follows. The numbers in the parenthesis indicates the section that the corresponding problem is discussed in the paper.
 
 # Table of Contents
-1. [Class Imbalance](#1)
-    1.1 [Foreground-Backgorund Class Imbalance](#1.1)
-    1.1 [Foreground-Foreground Class Imbalance](#1.2)    
+1. [Class Imbalance](#1)  
+    1.1 [Foreground-Backgorund Class Imbalance](#1.1)  
+    1.2 [Foreground-Foreground Class Imbalance](#1.2)    
 2. [Scale Imbalance](#2)
-
+3. [Spatial Imbalance](#3)
+4. [Objective Imbalance](#4)
 
 # 1. Class Imbalance <a name="1"></a>
 
@@ -78,7 +79,7 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
   - NAS-FPN
   - Det-NAS
 
-# 3. Spatial Imbalance
+# 3. Spatial Imbalance <a name="3"></a>
 
 ## 3.1. Imbalance in Regression Loss
 - Lp norm based
@@ -98,7 +99,7 @@ The taxonomy that we consider is as follows. The numbers in the parenthesis indi
 ## 3.3. Object Location Imbalance
 - Guided Anchoring
 
-# 4. Objective Imbalance
+# 4. Objective Imbalance <a name="4"></a>
 - Task Weighting
 - Classification Aware Regression Loss
 		
