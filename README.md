@@ -59,54 +59,54 @@ If you spot a study missing in the repository, you can directly send a request f
 ## 2.1. Object/box-level Scale Imbalance <a name="2.1"></a>
 
 - Methods Predicting from the Feature Hierarchy of Backbone Features
-  - Scale-dependent Pooling, CVPR 2016, [[paper]](https://ieeexplore.ieee.org/document/7780603)
+  - Scale-dependent Pooling, CVPR 2016, [[paper]](http://openaccess.thecvf.com/content_cvpr_2016/papers/Yang_Exploit_All_the_CVPR_2016_paper.pdf)
   - SSD, ECCV 2016, [[paper]](http://www.cs.unc.edu/~wliu/papers/ssd.pdf)
-  - Multi Scale CNN, ECCV 2016, [[paper]](https://arxiv.org/abs/1607.07155)
-  - Scale Aware Fast R-CNN, IEEE TMM 2017, [[paper]](https://ieeexplore.ieee.org/document/8060595)
+  - Multi Scale CNN, ECCV 2016, [[paper]](https://arxiv.org/pdf/1607.07155.pdf)
+  - Scale Aware Fast R-CNN, IEEE TMM 2017, [[paper]](https://arxiv.org/pdf/1510.08160.pdf)
 
 - Methods Based on Feature Pyramids
-  - FPN, CVPR 2017, [[paper]](https://ieeexplore.ieee.org/document/8099589)
+  - FPN, CVPR 2017, [[paper]](https://zpascal.net/cvpr2017/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.pdf)
   - See feature-level imbalance methods
 
 - Methods Based on Image Pyramids
-  - SNIP, CVPR 2018, [[paper]](https://ieeexplore.ieee.org/document/8578475)
+  - SNIP, CVPR 2018, [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Singh_An_Analysis_of_CVPR_2018_paper.pdf)
   - SNIPER, NeurIPS 2018, [[paper]](https://papers.nips.cc/paper/8143-sniper-efficient-multi-scale-training.pdf)
 
 - Methods Combining Image and Feature Pyramids
-  - Scale Aware Trident Network, arXiv 2019, [[paper]](https://arxiv.org/abs/1901.01892)
+  - Scale Aware Trident Network, arXiv 2019, [[paper]](https://arxiv.org/pdf/1901.01892.pdf)
 
 ## 2.2. Feature-level Imbalance <a name="2.2"></a>
 
 - Methods Using Pyramidal Features as a Basis
-  - PANet, CVPR 2018, [[paper]](https://ieeexplore.ieee.org/document/8579011)
+  - PANet, CVPR 2018, [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_Path_Aggregation_Network_CVPR_2018_paper.pdf)
   - Libra FPN, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Pang_Libra_R-CNN_Towards_Balanced_Learning_for_Object_Detection_CVPR_2019_paper.pdf)
 
 - Methods Using Backbone Features as a Basis
-  - STDN, CVPR 2018, [[paper]](https://ieeexplore.ieee.org/document/8578160)
-  - Parallel-FPN, ECCV 2018, [[paper]](https://link.springer.com/chapter/10.1007/978-3-030-01228-1_15)
+  - STDN, CVPR 2018, [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1376.pdf)
+  - Parallel-FPN, ECCV 2018, [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Seung-Wook_Kim_Parallel_Feature_Pyramid_ECCV_2018_paper.pdf)
   - Deep Feature Pyramid Reconfiguration, ECCV 2018, [[paper]](https://eccv2018.org/openaccess/content_ECCV_2018/papers/Tao_Kong_Deep_Feature_Pyramid_ECCV_2018_paper.pdf)
-  - Zoom Out-and-In, IJCV 2019, [[paper]](https://arxiv.org/abs/1709.04347)
-  - Multi-level FPN, AAAI 2019, [[paper]](https://www.groundai.com/project/m2det-a-single-shot-object-detector-based-on-multi-level-feature-pyramid-network/)
+  - Zoom Out-and-In, IJCV 2019, [[paper]](https://arxiv.org/pdf/1709.04347.pdf)
+  - Multi-level FPN, AAAI 2019, [[paper]](https://arxiv.org/pdf/1811.04533.pdf)
   - NAS-FPN, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ghiasi_NAS-FPN_Learning_Scalable_Feature_Pyramid_Architecture_for_Object_Detection_CVPR_2019_paper.pdf)
-  - Det-NAS, arXiv 2019, [[paper]](https://arxiv.org/abs/1903.10979)
+  - Det-NAS, arXiv 2019, [[paper]](https://arxiv.org/pdf/1903.10979.pdf)
 
 # 3. Spatial Imbalance <a name="3"></a>
 
 ## 3.1. Imbalance in Regression Loss <a name="3.1"></a>
 
 - Lp norm based
-  - Smooth L1, ICCV 2015, [[paper]](https://ieeexplore.ieee.org/document/7410526)
+  - Smooth L1, ICCV 2015, [[paper]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf)
   - Balanced L1, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Pang_Libra_R-CNN_Towards_Balanced_Learning_for_Object_Detection_CVPR_2019_paper.html)
   - KL Loss, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/He_Bounding_Box_Regression_With_Uncertainty_for_Accurate_Object_Detection_CVPR_2019_paper.pdf)
-  - Gradient Harmonizing Mechanism, AAAI 2019, [[paper]](https://aaai.org/ojs/index.php/AAAI/article/view/4877)
+  - Gradient Harmonizing Mechanism, AAAI 2019, [[paper]](https://aaai.org/ojs/index.php/AAAI/article/view/4877/4750)
 
 - IoU based
-  - IoU Loss, ACM IMM 2016, [[paper]](https://dl.acm.org/citation.cfm?id=2967274)
+  - IoU Loss, ACM IMM 2016, [[paper]](https://arxiv.org/pdf/1608.01471.pdf)
   - Bounded IoU Loss, CVPR 2018, [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0794.pdf)
   - GIoU Loss, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Rezatofighi_Generalized_Intersection_Over_Union_A_Metric_and_a_Loss_for_CVPR_2019_paper.pdf)
        
 ## 3.2. IoU Distribution Imbalance <a name="3.2"></a>
-- Cascade R-CNN, CVPR 2018, [[paper]](https://ieeexplore.ieee.org/document/8578742)
+- Cascade R-CNN, CVPR 2018, [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Cai_Cascade_R-CNN_Delving_CVPR_2018_paper.pdf)
 
 ## 3.3. Object Location Imbalance <a name="3.3"></a>
 - Guided Anchoring, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Region_Proposal_by_Guided_Anchoring_CVPR_2019_paper.html)
