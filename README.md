@@ -7,7 +7,7 @@ K. Oksuz, B. C. Cam, S. Kalkan, E. Akbas, "Imbalance Problems in Object Detectio
 If you spot a study missing in the repository, you can directly send a request for adding it.
 
 ## How to request addition of a paper
-You are welcome to submit a pull request if you think that your paper addresses any imbalance problem concerning object detection.
+You are welcome to submit a pull request if you think that your paper addresses any imbalance problem concerning object detection. In your pull request please briefly state which section of your paper is related to which problem.
 
 # Table of Contents (Follows the taxonomy in the paper)
 1. [Class Imbalance](#1)  
