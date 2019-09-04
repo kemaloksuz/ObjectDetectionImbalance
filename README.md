@@ -2,7 +2,7 @@
 
 This repository provides an up-to-date the list of studies addressing imbalance problems in object detection. It follows the taxonomy provided in the following paper(please cite the paper if you benefit from this repository):
 
-K. Oksuz, B. C. Cam, S. Kalkan, E. Akbas, "Imbalance Problems in Object Detection: A Review", (under review), 2019.[[paper]](https://arxiv.org/abs/1909.00169)
+K. Oksuz, B. C. Cam, S. Kalkan, E. Akbas, "Imbalance Problems in Object Detection: A Review", (under review), 2019.[[preprint]](https://arxiv.org/abs/1909.00169)
 
 BibTeX entry:
 ```
