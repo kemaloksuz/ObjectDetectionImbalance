@@ -1,8 +1,8 @@
 # A Repository of the Papers Addressing Imbalance Problems in Object Detection
 
-This repository provides an up-to-date the list of studies addressing imbalance problems in object detection. It follows the taxonomy provided in the following [[paper]](https://arxiv.org/abs/1909.00169) (please cite the paper if you benefit from this repository):
+This repository provides an up-to-date the list of studies addressing imbalance problems in object detection. It follows the taxonomy provided in the following paper(please cite the paper if you benefit from this repository):
 
-K. Oksuz, B. C. Cam, S. Kalkan, E. Akbas, "Imbalance Problems in Object Detection: A Review", (under review), 2019.
+K. Oksuz, B. C. Cam, S. Kalkan, E. Akbas, "Imbalance Problems in Object Detection: A Review", (under review), 2019.[[paper]](https://arxiv.org/abs/1909.00169)
 	
 If you spot a study missing in the repository, you can directly send a request for adding it.
 
