@@ -3,11 +3,23 @@
 This repository provides an up-to-date the list of studies addressing imbalance problems in object detection. It follows the taxonomy provided in the following paper(please cite the paper if you benefit from this repository):
 
 K. Oksuz, B. C. Cam, S. Kalkan, E. Akbas, "Imbalance Problems in Object Detection: A Review", (under review), 2019.[[paper]](https://arxiv.org/abs/1909.00169)
-	
-If you spot a study missing in the repository, you can directly send a request for adding it.
+
+BibTeX entry:
+```
+@ARTICLE{imbalance,
+       author = {Kemal Oksuz and Baris Can Cam and Sinan Kalkan and Emre Akbas},
+        title = "{Imbalance Problems in Object Detection: A Review}",
+      journal = {arXiv e-prints},
+         year = "2019",
+        month = "Aug",
+        pages = {arXiv:1909.00169},
+          ee  = {https://arxiv.org/abs/1909.00169},
+       eprint = {1909.00169} 
+}
+```
 
 ## How to request addition of a paper
-You are welcome to submit a pull request if you think that your paper addresses any imbalance problem concerning object detection. In your pull request please briefly state which section of your paper is related to which problem.
+If you know of a paper that addresses an imbalance problem concerning object detection and is not on this repository, you are welcome to submit a pull request. In your pull request please briefly state which section of your paper is related to which problem.
 
 # Table of Contents (Follows the taxonomy in the paper)
 1. [Class Imbalance](#1)  
@@ -116,4 +128,4 @@ You are welcome to submit a pull request if you think that your paper addresses 
 - Classification Aware Regression Loss, arXiv 2019, [[paper]](https://arxiv.org/pdf/1904.04821.pdf)
 		
 # Contact 
-Please contact with Kemal Öksüz (kemal.oksuz@metu.edu.tr) for your questions about this webpage.
+Please contact Kemal Öksüz (kemal.oksuz@metu.edu.tr) for your questions about this webpage.
