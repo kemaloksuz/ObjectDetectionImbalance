@@ -19,7 +19,7 @@ BibTeX entry:
 ```
 
 ## How to request addition of a paper
-If you know of a paper that addresses an imbalance problem concerning object detection and is not on this repository, you are welcome to submit a pull request. In your pull request please briefly state which section of your paper is related to which problem.
+If you know of a paper that addresses an imbalance problem concerning object detection and is not on this repository, you are welcome to request  the addition of that paper by submitting a pull request. In your pull request please briefly state which section of your paper is related to which problem.
 
 # Table of Contents (Follows the taxonomy in the paper)
 1. [Class Imbalance](#1)  
