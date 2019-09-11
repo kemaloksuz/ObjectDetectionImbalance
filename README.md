@@ -60,6 +60,7 @@ If you know of a paper that addresses an imbalance problem concerning object det
    - Task Aware Data Synthesis, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Tripathi_Learning_to_Generate_Synthetic_Data_via_Compositing_CVPR_2019_paper.pdf)
    - PSIS, arXiv 2019, [[paper]](https://arxiv.org/pdf/1906.00358.pdf) 
    - Bounding Box Generator, WACV 2020 (Under Review)
+   - Using Templates and Arbitrary Natural Images, IJCNN 2019 [[paper]](https://arxiv.org/abs/1907.09679)
 
 ## 1.2. Foreground-Foreground Class Imbalance  <a name="1.2"></a>
    - Fine-tuning Long Tail Distribution for Obj.Det., CVPR 2016, [[paper]](http://openaccess.thecvf.com/content_cvpr_2016/papers/Ouyang_Factors_in_Finetuning_CVPR_2016_paper.pdf)
