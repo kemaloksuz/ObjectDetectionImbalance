@@ -19,7 +19,9 @@ BibTeX entry:
 ```
 
 ## How to request addition of a paper
-If you know of a paper that addresses an imbalance problem concerning object detection and is not on this repository, you are welcome to request  the addition of that paper by submitting a pull request. In your pull request please briefly state which section of your paper is related to which problem.
+If you know of a paper that addresses an imbalance problem concerning generic object detection and is not on this repository, you are welcome to request the addition of that paper by submitting a pull request. In your pull request please briefly state which section of your paper is related to which problem.  
+
+Following the methodology in our paper, the papers should be designed for the generic object detection problem (i.e. reporting results on generic object detection datasets such as ILSVRC, Pascal VOC, MS-COCO, Open Images etc.). 
 
 # Table of Contents (Follows the taxonomy in the paper)
 1. [Class Imbalance](#1)  
@@ -74,7 +76,6 @@ If you know of a paper that addresses an imbalance problem concerning object det
   - Scale-dependent Pooling, CVPR 2016, [[paper]](http://openaccess.thecvf.com/content_cvpr_2016/papers/Yang_Exploit_All_the_CVPR_2016_paper.pdf)
   - SSD, ECCV 2016, [[paper]](http://www.cs.unc.edu/~wliu/papers/ssd.pdf)
   - Multi Scale CNN, ECCV 2016, [[paper]](https://arxiv.org/pdf/1607.07155.pdf)
-  - Scale Aware Fast R-CNN, IEEE TMM 2017, [[paper]](https://arxiv.org/pdf/1510.08160.pdf)
 
 - Methods Based on Feature Pyramids
   - FPN, CVPR 2017, [[paper]](https://zpascal.net/cvpr2017/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.pdf)
