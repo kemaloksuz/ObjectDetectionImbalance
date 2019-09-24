@@ -61,12 +61,12 @@ Following the methodology in our paper, the papers should be designed for the ge
    - Adversarial Faster-RCNN, CVPR 2017, [[paper]](http://zpascal.net/cvpr2017/Wang_A-Fast-RCNN_Hard_Positive_CVPR_2017_paper.pdf) 
    - Task Aware Data Synthesis, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Tripathi_Learning_to_Generate_Synthetic_Data_via_Compositing_CVPR_2019_paper.pdf)
    - PSIS, arXiv 2019, [[paper]](https://arxiv.org/pdf/1906.00358.pdf) 
-   - Bounding Box Generator, WACV 2020 (Under Review)
+   - Bounding Box Generator, WACV 2020, arXiv 2019, [[paper]](https://arxiv.org/abs/1909.09777)
 
 ## 1.2. Foreground-Foreground Class Imbalance  <a name="1.2"></a>
    - Fine-tuning Long Tail Distribution for Obj.Det., CVPR 2016, [[paper]](http://openaccess.thecvf.com/content_cvpr_2016/papers/Ouyang_Factors_in_Finetuning_CVPR_2016_paper.pdf)
    - PSIS, arXiv 2019, [[paper]](https://arxiv.org/pdf/1906.00358.pdf)
-   - OFB Sampling, WACV 2020 (Under Review)
+   - OFB Sampling, WACV 2020, arXiv 2019, [[paper]](https://arxiv.org/abs/1909.09777)
 
 # 2. Scale Imbalance <a name="2"></a>
 
