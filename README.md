@@ -19,7 +19,9 @@ BibTeX entry:
 ```
 
 ## How to request addition of a paper
-If you know of a paper that addresses an imbalance problem concerning object detection and is not on this repository, you are welcome to request  the addition of that paper by submitting a pull request. In your pull request please briefly state which section of your paper is related to which problem.
+If you know of a paper that addresses an imbalance problem concerning generic object detection and is not on this repository, you are welcome to request the addition of that paper by submitting a pull request. In your pull request please briefly state which section of your paper is related to which problem.  
+
+Following the methodology in our paper, the papers should be designed for the generic object detection problem (i.e. reporting results on generic object detection datasets such as ILSVRC, Pascal VOC, MS-COCO, Open Images etc.). 
 
 # Table of Contents (Follows the taxonomy in the paper)
 1. [Class Imbalance](#1)  
@@ -49,6 +51,8 @@ If you know of a paper that addresses an imbalance problem concerning object det
      - IoU-lower Bound, ICCV 2015, [[paper]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf)
      - Objectness Prior, CVPR 2017, [[paper]](http://zpascal.net/cvpr2017/Kong_RON_Reverse_Connection_CVPR_2017_paper.pdf)
      - Negative Anchor Filtering, CVPR 2018, [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Single-Shot_Refinement_Neural_CVPR_2018_paper.pdf)
+     - Enriched Feature Guided Refinement Network for Object_Detection, ICCV 2019, [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Nie_Enriched_Feature_Guided_Refinement_Network_for_Object_Detection_ICCV_2019_paper.pdf)
+     - PosNeg-Balanced Anchors with Aligned Features for Single-Shot Object Detection, arXiv 2019, [[paper]](https://arxiv.org/pdf/1908.03295.pdf)
 - Soft Sampling Methods  
    - Focal Loss, ICCV 2017, [[paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf)
    - Gradient Harmonizing Mechanism, AAAI 2019, [[paper]](https://aaai.org/ojs/index.php/AAAI/article/view/4877)
@@ -59,12 +63,15 @@ If you know of a paper that addresses an imbalance problem concerning object det
    - Adversarial Faster-RCNN, CVPR 2017, [[paper]](http://zpascal.net/cvpr2017/Wang_A-Fast-RCNN_Hard_Positive_CVPR_2017_paper.pdf) 
    - Task Aware Data Synthesis, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Tripathi_Learning_to_Generate_Synthetic_Data_via_Compositing_CVPR_2019_paper.pdf)
    - PSIS, arXiv 2019, [[paper]](https://arxiv.org/pdf/1906.00358.pdf) 
-   - Bounding Box Generator, WACV 2020 (Under Review)
+   - Bounding Box Generator, arXiv 2019, [[paper]](https://arxiv.org/abs/1909.09777)
+- Methods Without Sampling 
+   - Are Sampling Heuristics Necessary in Object Detectors?, arXiv 2019, [[paper]](https://arxiv.org/pdf/1909.04868.pdf)
+   - Residual Objectness for Imbalance Reduction, arXiv 2019, [[paper]](https://arxiv.org/pdf/1908.09075.pdf)
 
 ## 1.2. Foreground-Foreground Class Imbalance  <a name="1.2"></a>
    - Fine-tuning Long Tail Distribution for Obj.Det., CVPR 2016, [[paper]](http://openaccess.thecvf.com/content_cvpr_2016/papers/Ouyang_Factors_in_Finetuning_CVPR_2016_paper.pdf)
    - PSIS, arXiv 2019, [[paper]](https://arxiv.org/pdf/1906.00358.pdf)
-   - OFB Sampling, WACV 2020 (Under Review)
+   - OFB Sampling, arXiv 2019, [[paper]](https://arxiv.org/abs/1909.09777)
 
 # 2. Scale Imbalance <a name="2"></a>
 
@@ -74,7 +81,6 @@ If you know of a paper that addresses an imbalance problem concerning object det
   - Scale-dependent Pooling, CVPR 2016, [[paper]](http://openaccess.thecvf.com/content_cvpr_2016/papers/Yang_Exploit_All_the_CVPR_2016_paper.pdf)
   - SSD, ECCV 2016, [[paper]](http://www.cs.unc.edu/~wliu/papers/ssd.pdf)
   - Multi Scale CNN, ECCV 2016, [[paper]](https://arxiv.org/pdf/1607.07155.pdf)
-  - Scale Aware Fast R-CNN, IEEE TMM 2017, [[paper]](https://arxiv.org/pdf/1510.08160.pdf)
 
 - Methods Based on Feature Pyramids
   - FPN, CVPR 2017, [[paper]](https://zpascal.net/cvpr2017/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.pdf)
@@ -85,7 +91,9 @@ If you know of a paper that addresses an imbalance problem concerning object det
   - SNIPER, NeurIPS 2018, [[paper]](https://papers.nips.cc/paper/8143-sniper-efficient-multi-scale-training.pdf)
 
 - Methods Combining Image and Feature Pyramids
-  - Scale Aware Trident Network, arXiv 2019, [[paper]](https://arxiv.org/pdf/1901.01892.pdf)
+  - Scale Aware Trident Network, ICCV 2019, [[paper]](https://arxiv.org/pdf/1901.01892.pdf)
+  - Better to Follow, Follow to Be Better: Towards Precise Supervision of Feature Super-Resolution for Small Object Detection, ICCV 2019, [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Noh_Better_to_Follow_Follow_to_Be_Better_Towards_Precise_Supervision_ICCV_2019_paper.pdf)
+  - Efficient Featurized Image Pyramid Network for Single Shot Detector, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Pang_Efficient_Featurized_Image_Pyramid_Network_for_Single_Shot_Detector_CVPR_2019_paper.pdf)
 
 ## 2.2. Feature-level Imbalance <a name="2.2"></a>
 
@@ -100,7 +108,9 @@ If you know of a paper that addresses an imbalance problem concerning object det
   - Zoom Out-and-In, IJCV 2019, [[paper]](https://arxiv.org/pdf/1709.04347.pdf)
   - Multi-level FPN, AAAI 2019, [[paper]](https://arxiv.org/pdf/1811.04533.pdf)
   - NAS-FPN, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ghiasi_NAS-FPN_Learning_Scalable_Feature_Pyramid_Architecture_for_Object_Detection_CVPR_2019_paper.pdf)
-  - Det-NAS, arXiv 2019, [[paper]](https://arxiv.org/pdf/1903.10979.pdf)
+  - Auto-FPN, ICCV 2019, , [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_Auto-FPN_Automatic_Network_Architecture_Adaptation_for_Object_Detection_Beyond_Classification_ICCV_2019_paper.pdf)
+  - Enriched Feature Guided Refinement Network for Object_Detection, ICCV 2019, [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Nie_Enriched_Feature_Guided_Refinement_Network_for_Object_Detection_ICCV_2019_paper.pdf)
+  - POD: Practical Object Detection with Scale-Sensitive Network, ICCV 2019, [[paper]](https://arxiv.org/pdf/1909.02225.pdf)
 
 # 3. Spatial Imbalance <a name="3"></a>
 
@@ -126,6 +136,7 @@ If you know of a paper that addresses an imbalance problem concerning object det
 # 4. Objective Imbalance <a name="4"></a>
 - Task Weighting
 - Classification Aware Regression Loss, arXiv 2019, [[paper]](https://arxiv.org/pdf/1904.04821.pdf)
-		
+- LapNet Automatic Balanced Loss and Optimal Assignment, arXiv 2019, [[paper]](https://arxiv.org/pdf/1911.01149.pdf)
+- Guided Loss, arXiv 2019, [[paper]](https://arxiv.org/pdf/1909.04868.pdf)
 # Contact 
 Please contact Kemal Öksüz (kemal.oksuz@metu.edu.tr) for your questions about this webpage.
