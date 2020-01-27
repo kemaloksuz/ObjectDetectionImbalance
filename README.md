@@ -25,7 +25,7 @@ Following the methodology in our paper, the papers should be designed for the ge
 
 # Table of Contents (Follows the taxonomy in the paper)
 1. [Class Imbalance](#1)  
-    1.1 [Foreground-Backgorund Class Imbalance](#1.1)  
+    1.1 [Foreground-Background Class Imbalance](#1.1)  
     1.2 [Foreground-Foreground Class Imbalance](#1.2)    
 2. [Scale Imbalance](#2)  
     2.1 [Object/box-level Scale Imbalance](#2.1)  
