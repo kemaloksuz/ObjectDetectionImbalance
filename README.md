@@ -46,6 +46,7 @@ Following the methodology in our paper, the papers should be designed for the ge
      - SSD, ECCV 2016, [[paper]](http://www.cs.unc.edu/~wliu/papers/ssd.pdf)
      - Online Hard Example Mining, CVPR 2016, [[paper]](https://zpascal.net/cvpr2016/Shrivastava_Training_Region-Based_Object_CVPR_2016_paper.pdf)
      - IoU-based Sampling, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Pang_Libra_R-CNN_Towards_Balanced_Learning_for_Object_Detection_CVPR_2019_paper.pdf)
+     - Overlap Sampler, WACV 2020, [[paper]](http://openaccess.thecvf.com/content_WACV_2020/papers/Chen_Overlap_Sampler_for_Region-Based_Object_Detection_WACV_2020_paper.pdf)
    - Limit Search Space  
      - Two-stage Object Detectors 	
      - IoU-lower Bound, ICCV 2015, [[paper]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf)
@@ -65,13 +66,13 @@ Following the methodology in our paper, the papers should be designed for the ge
    - Adversarial Faster-RCNN, CVPR 2017, [[paper]](http://zpascal.net/cvpr2017/Wang_A-Fast-RCNN_Hard_Positive_CVPR_2017_paper.pdf) 
    - Task Aware Data Synthesis, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Tripathi_Learning_to_Generate_Synthetic_Data_via_Compositing_CVPR_2019_paper.pdf)
    - PSIS, arXiv 2019, [[paper]](https://arxiv.org/pdf/1906.00358.pdf) 
-   - Bounding Box Generator, WACV 2020, [[paper]](https://arxiv.org/abs/1909.09777)
+   - pRoI Generator, WACV 2020, [[paper]](http://openaccess.thecvf.com/content_WACV_2020/papers/Oksuz_Generating_Positive_Bounding_Boxes_for_Balanced_Training_of_Object_Detectors_WACV_2020_paper.pdf)
 
 
 ## 1.2. Foreground-Foreground Class Imbalance  <a name="1.2"></a>
    - Fine-tuning Long Tail Distribution for Obj.Det., CVPR 2016, [[paper]](http://openaccess.thecvf.com/content_cvpr_2016/papers/Ouyang_Factors_in_Finetuning_CVPR_2016_paper.pdf)
    - PSIS, arXiv 2019, [[paper]](https://arxiv.org/pdf/1906.00358.pdf)
-   - OFB Sampling, WACV 2020, [[paper]](https://arxiv.org/abs/1909.09777)
+   - OFB Sampling, WACV 2020, [[paper]](http://openaccess.thecvf.com/content_WACV_2020/papers/Oksuz_Generating_Positive_Bounding_Boxes_for_Balanced_Training_of_Object_Detectors_WACV_2020_paper.pdf)
 
 # 2. Scale Imbalance <a name="2"></a>
 
@@ -132,6 +133,8 @@ Following the methodology in our paper, the papers should be designed for the ge
 ## 3.2. IoU Distribution Imbalance <a name="3.2"></a>
 - Cascade R-CNN, CVPR 2018, [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Cai_Cascade_R-CNN_Delving_CVPR_2018_paper.pdf)
 - Hierarchical Shot Detector, ICCV 2019, [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Cao_Hierarchical_Shot_Detector_ICCV_2019_paper.pdf)
+- IoU-uniform R-CNN, arXiv 2019, [[paper]](https://arxiv.org/pdf/1912.05190.pdf)
+- pRoI Generator, WACV 2020, [[paper]](http://openaccess.thecvf.com/content_WACV_2020/papers/Oksuz_Generating_Positive_Bounding_Boxes_for_Balanced_Training_of_Object_Detectors_WACV_2020_paper.pdf)
 
 ## 3.3. Object Location Imbalance <a name="3.3"></a>
 - Guided Anchoring, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Region_Proposal_by_Guided_Anchoring_CVPR_2019_paper.html)
