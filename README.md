@@ -2,20 +2,17 @@
 
 This repository provides an up-to-date the list of studies addressing imbalance problems in object detection. It follows the taxonomy provided in the following paper(please cite the paper if you benefit from this repository):
 
-K. Oksuz, B. C. Cam, S. Kalkan, E. Akbas, "Imbalance Problems in Object Detection: A Review", (under review), 2019.[[preprint]](https://arxiv.org/abs/1909.00169)
+K. Oksuz, B. C. Cam, S. Kalkan, E. Akbas, "Imbalance Problems in Object Detection: A Review", TPAMI, 2020.[[preprint]](https://arxiv.org/abs/1909.00169)
 
 BibTeX entry:
 ```
 @ARTICLE{imbalance,
        author = {Kemal Oksuz and Baris Can Cam and Sinan Kalkan and Emre Akbas},
         title = "{Imbalance Problems in Object Detection: A Review}",
-      journal = {arXiv e-prints},
-         year = "2019",
-        month = "Aug",
-        pages = {arXiv:1909.00169},
-          ee  = {https://arxiv.org/abs/1909.00169},
-       eprint = {1909.00169} 
-}
+      journal = {Transactions in Pattern Analysis and Machine Intelligence (TPAMI)},
+         year = "2020",
+        pages = {1-1}
+        }
 ```
 
 ## How to request addition of a paper
