@@ -73,6 +73,7 @@ Following the methodology in our paper, the papers should be designed for the ge
    - OFB Sampling, WACV 2020, [[paper]](http://openaccess.thecvf.com/content_WACV_2020/papers/Oksuz_Generating_Positive_Bounding_Boxes_for_Balanced_Training_of_Object_Detectors_WACV_2020_paper.pdf)
    - Large-Scale Object Detection in the Wild from Imbalanced Multi-Labels, CVPR 2020, [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Peng_Large-Scale_Object_Detection_in_the_Wild_From_Imbalanced_Multi-Labels_CVPR_2020_paper.pdf)
    - Balanced Group Softmax Loss, CVPR 2020, [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Overcoming_Classifier_Imbalance_for_Long-Tail_Object_Detection_With_Balanced_Group_CVPR_2020_paper.pdf) 
+   - SimCal, ECCV 2020,  [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590715.pdf) 
 
 # 2. Scale Imbalance <a name="2"></a>
 
@@ -103,6 +104,7 @@ Following the methodology in our paper, the papers should be designed for the ge
 - Methods Using Pyramidal Features as a Basis
   - PANet, CVPR 2018, [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_Path_Aggregation_Network_CVPR_2018_paper.pdf)
   - Libra FPN, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Pang_Libra_R-CNN_Towards_Balanced_Learning_for_Object_Detection_CVPR_2019_paper.pdf)
+  - Representation Sharing for Fast Object Detector Search and Beyond, ECCV 2020, [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640460.pdf)
 
 - Methods Using Backbone Features as a Basis
   - STDN, CVPR 2018, [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1376.pdf)
@@ -125,6 +127,7 @@ Following the methodology in our paper, the papers should be designed for the ge
   - Balanced L1, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Pang_Libra_R-CNN_Towards_Balanced_Learning_for_Object_Detection_CVPR_2019_paper.html)
   - KL Loss, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/He_Bounding_Box_Regression_With_Uncertainty_for_Accurate_Object_Detection_CVPR_2019_paper.pdf)
   - Gradient Harmonizing Mechanism, AAAI 2019, [[paper]](https://aaai.org/ojs/index.php/AAAI/article/view/4877/4750)
+  - Dynamic Smooth L1, ECCV 2020, [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600256.pdf)
 
 - IoU based
   - IoU Loss, ACM IMM 2016, [[paper]](https://arxiv.org/pdf/1608.01471.pdf)
@@ -133,8 +136,9 @@ Following the methodology in our paper, the papers should be designed for the ge
   - Distance IoU Loss, AAAI 2020, [[paper]](https://arxiv.org/pdf/1911.08287.pdf)
   - Complete IoU Loss, AAAI 2020, [[paper]](https://arxiv.org/pdf/1911.08287.pdf)
 
-- Other Approaches
+- Cross entropy based
   - Offset Bin Classiﬁcation Network, CVPR 2020, [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Qiu_Offset_Bin_Classification_Network_for_Accurate_Object_Detection_CVPR_2020_paper.pdf)
+  - Bucketing Scheme, ECCV 2020, [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490392.pdf)
 
 ## 3.2. IoU Distribution Imbalance <a name="3.2"></a>
 - Cascade R-CNN, CVPR 2018, [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Cai_Cascade_R-CNN_Delving_CVPR_2018_paper.pdf)
