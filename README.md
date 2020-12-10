@@ -55,11 +55,15 @@ Following the methodology in our paper, the papers should be designed for the ge
    - Gradient Harmonizing Mechanism, AAAI 2019, [[paper]](https://aaai.org/ojs/index.php/AAAI/article/view/4877)
    - Prime Sample Attention, CVPR 2020, [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cao_Prime_Sample_Attention_in_Object_Detection_CVPR_2020_paper.pdf)
    - Unified Sample Weighting Network, CVPR 2020, [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cai_Learning_a_Unified_Sample_Weighting_Network_for_Object_Detection_CVPR_2020_paper.pdf)
+   - Quality Focal Loss, NeurIPS 2020, [[paper]](https://proceedings.neurips.cc/paper/2020/file/f0bda020d2470f2e74990a07a607ebd9-Paper.pdf) 
+
 - Sampling-Free Methods
    - Is Sampling Heuristics Necessary in Training Deep Object Detectors?, arXiv 2019, [[paper]](https://arxiv.org/pdf/1909.04868.pdf)
    - Residual Objectness for Imbalance Reduction, arXiv 2019, [[paper]](https://arxiv.org/pdf/1908.09075.pdf)   
    - AP Loss, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Towards_Accurate_One-Stage_Object_Detection_With_AP-Loss_CVPR_2019_paper.pdf)
-   - DR Loss, CVPR 2020, [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Qian_DR_Loss_Improving_Object_Detection_by_Distributional_Ranking_CVPR_2020_paper.pdf)    
+   - DR Loss, CVPR 2020, [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Qian_DR_Loss_Improving_Object_Detection_by_Distributional_Ranking_CVPR_2020_paper.pdf)
+   - aLRP Loss, NeurIPS 2020, [[paper]](https://papers.nips.cc/paper/2020/file/b2eeb7362ef83deff5c7813a67e14f0a-Paper.pdf)   
+
 - Generative Methods  
    - Adversarial Faster-RCNN, CVPR 2017, [[paper]](http://zpascal.net/cvpr2017/Wang_A-Fast-RCNN_Hard_Positive_CVPR_2017_paper.pdf) 
    - Task Aware Data Synthesis, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Tripathi_Learning_to_Generate_Synthetic_Data_via_Compositing_CVPR_2019_paper.pdf)
@@ -105,6 +109,7 @@ Following the methodology in our paper, the papers should be designed for the ge
   - PANet, CVPR 2018, [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_Path_Aggregation_Network_CVPR_2018_paper.pdf)
   - Libra FPN, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Pang_Libra_R-CNN_Towards_Balanced_Learning_for_Object_Detection_CVPR_2019_paper.pdf)
   - Representation Sharing for Fast Object Detector Search and Beyond, ECCV 2020, [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640460.pdf)
+   - Fine-Grained Dynamic Head for Object Detection, NeurIPS 2020, [[paper]](https://papers.nips.cc/paper/2020/file/7f6caf1f0ba788cd7953d817724c2b6e-Paper.pdf) 
 
 - Methods Using Backbone Features as a Basis
   - STDN, CVPR 2018, [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1376.pdf)
@@ -139,6 +144,7 @@ Following the methodology in our paper, the papers should be designed for the ge
 - Cross entropy based
   - Offset Bin Classiﬁcation Network, CVPR 2020, [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Qiu_Offset_Bin_Classification_Network_for_Accurate_Object_Detection_CVPR_2020_paper.pdf)
   - Bucketing Scheme, ECCV 2020, [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490392.pdf)
+  - Distribution Focal Loss, NeurIPS 2020, [[paper]](https://proceedings.neurips.cc/paper/2020/file/f0bda020d2470f2e74990a07a607ebd9-Paper.pdf) 
 
 ## 3.2. IoU Distribution Imbalance <a name="3.2"></a>
 - Cascade R-CNN, CVPR 2018, [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Cai_Cascade_R-CNN_Delving_CVPR_2018_paper.pdf)
@@ -154,6 +160,7 @@ Following the methodology in our paper, the papers should be designed for the ge
 - Task Weighting
 - Classification Aware Regression Loss, CVPR 2020, [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cao_Prime_Sample_Attention_in_Object_Detection_CVPR_2020_paper.pdf)
 - Guided Loss, arXiv 2019, [[paper]](https://arxiv.org/pdf/1909.04868.pdf)
+- aLRP Loss, NeurIPS 2020, [[paper]](https://papers.nips.cc/paper/2020/file/b2eeb7362ef83deff5c7813a67e14f0a-Paper.pdf)   
 
 # Contact 
 Please contact Kemal Öksüz (kemal.oksuz@metu.edu.tr) for your questions about this webpage.
