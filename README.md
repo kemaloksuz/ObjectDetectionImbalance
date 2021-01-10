@@ -55,7 +55,9 @@ Following the methodology in our paper, the papers should be designed for the ge
    - Gradient Harmonizing Mechanism, AAAI 2019, [[paper]](https://aaai.org/ojs/index.php/AAAI/article/view/4877)
    - Prime Sample Attention, CVPR 2020, [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cao_Prime_Sample_Attention_in_Object_Detection_CVPR_2020_paper.pdf)
    - Unified Sample Weighting Network, CVPR 2020, [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cai_Learning_a_Unified_Sample_Weighting_Network_for_Object_Detection_CVPR_2020_paper.pdf)
+   - Equalization Loss, CVPR 2020, [[paper]](https://arxiv.org/pdf/2003.05176.pdf)
    - Quality Focal Loss, NeurIPS 2020, [[paper]](https://proceedings.neurips.cc/paper/2020/file/f0bda020d2470f2e74990a07a607ebd9-Paper.pdf) 
+   - Equalization Loss v2, ArXiv 2020, [[paper]](https://arxiv.org/pdf/2012.08548.pdf)
 
 - Sampling-Free Methods
    - Is Sampling Heuristics Necessary in Training Deep Object Detectors?, arXiv 2019, [[paper]](https://arxiv.org/pdf/1909.04868.pdf)
