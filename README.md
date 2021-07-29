@@ -57,7 +57,7 @@ Following the methodology in our paper, the papers should be designed for the ge
    - Unified Sample Weighting Network, CVPR 2020, [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cai_Learning_a_Unified_Sample_Weighting_Network_for_Object_Detection_CVPR_2020_paper.pdf)
    - Equalization Loss, CVPR 2020, [[paper]](https://arxiv.org/pdf/2003.05176.pdf)
    - Quality Focal Loss, NeurIPS 2020, [[paper]](https://proceedings.neurips.cc/paper/2020/file/f0bda020d2470f2e74990a07a607ebd9-Paper.pdf) 
-   - Equalization Loss v2, ArXiv 2020, [[paper]](https://arxiv.org/pdf/2012.08548.pdf)
+   - Equalization Loss v2, CVPR 2021, [[paper]](https://arxiv.org/pdf/2012.08548.pdf)
 
 - Sampling-Free Methods
    - Is Sampling Heuristics Necessary in Training Deep Object Detectors?, arXiv 2019, [[paper]](https://arxiv.org/pdf/1909.04868.pdf)
@@ -65,6 +65,7 @@ Following the methodology in our paper, the papers should be designed for the ge
    - AP Loss, CVPR 2019, [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Towards_Accurate_One-Stage_Object_Detection_With_AP-Loss_CVPR_2019_paper.pdf)
    - DR Loss, CVPR 2020, [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Qian_DR_Loss_Improving_Object_Detection_by_Distributional_Ranking_CVPR_2020_paper.pdf)
    - aLRP Loss, NeurIPS 2020, [[paper]](https://papers.nips.cc/paper/2020/file/b2eeb7362ef83deff5c7813a67e14f0a-Paper.pdf)   
+   - RS Loss, ICCV 2021, [[paper]](https://arxiv.org/pdf/2107.11669.pdf)   
 
 - Generative Methods  
    - Adversarial Faster-RCNN, CVPR 2017, [[paper]](http://zpascal.net/cvpr2017/Wang_A-Fast-RCNN_Hard_Positive_CVPR_2017_paper.pdf) 
@@ -163,6 +164,7 @@ Following the methodology in our paper, the papers should be designed for the ge
 - Classification Aware Regression Loss, CVPR 2020, [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cao_Prime_Sample_Attention_in_Object_Detection_CVPR_2020_paper.pdf)
 - Guided Loss, arXiv 2019, [[paper]](https://arxiv.org/pdf/1909.04868.pdf)
 - aLRP Loss, NeurIPS 2020, [[paper]](https://papers.nips.cc/paper/2020/file/b2eeb7362ef83deff5c7813a67e14f0a-Paper.pdf)   
+- RS Loss, ICCV 2021, [[paper]](https://arxiv.org/pdf/2107.11669.pdf)   
 
 # Contact 
 Please contact Kemal Öksüz (kemal.oksuz@metu.edu.tr) for your questions about this webpage.
